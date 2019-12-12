@@ -1,0 +1,30 @@
+body{background:#171717; font-size: 18px;font-family: 'Handlee', cursive;}
+
+h1 {font-size: 35px;}
+.postcard {
+	background: white;
+	width: 500px;
+	height: 350px;
+	margin:auto; /* centrar horizontal*/
+	position: absolute; top:50%; left:50%;
+	transform: translate(-50%,-50%);   /*translate(x,y)*/
+	padding: 15px;
+}
+input {font-size: 18px;font-family: 'Handlee', cursive;}
+
+.postcard h1 { margin: 0;} /*quita el margen al h1*/
+
+.body-left {float: left;width:50%; }/*dividir tamaño del div al 50%*/
+.body-right {float: right;width:50%;} /*dividir tamaño del div al 50%*/
+
+.body-right input {display: block;font-family: 'Handlee', cursive;} /*alinear los 3 inputs verticalmente*/
+
+.p-header img { max-width: 60px; float:right;}
+.p-footer {padding:10px; text-align: center;}
+.p-header{overflow: hidden;}
+.p-body{overflow: hidden;}
+.p-footer{overflow: hidden;} /*overflow hidden pone input abajo*/
+.p-footer input [type=submit] {border: none ; border-bottom: 1px solid gray;font-family: 'Handlee', cursive;} /*not working*/
+.body-right input [type=text] {border:none;border-bottom: 1px solid gray;width:215px;} /*not working*/
+
+
